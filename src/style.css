@@ -50,9 +50,22 @@ section {
   line-height: 110%;
   color: #222222;
   margin-top: 16px;
+  margin-bottom: 0;
 }
 
-.card-rating-section {
+.card-container {
+  font-size: 12px;
+  width: 175px;
+  margin-left: 37px;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+
+.card-swimmer-image {
+  width: 100%;
+}
+
+.card-rating-container {
   margin-bottom: 8px;
   margin-top: 8px;
   align-items: center;
@@ -71,7 +84,8 @@ section {
   margin-right: 4px;
 }
 
-.card-reviews-location {
+.card-reviews,
+.card-location {
   margin-top: 0;
   margin-bottom: 0;
   color: #918e9b;
@@ -84,18 +98,13 @@ section {
 
 .card-pricing-container {
   display: flex;
-  margin-top: 8px;
 }
 
 .card-pricing-per-person {
-  margin-top: 0;
-  margin-bottom: 0;
   margin-left: 4px;
 }
 
 .card-pricing-text {
-  margin-top: 0;
-  margin-bottom: 0;
   font-weight: 600;
   color: #222222;
 }
