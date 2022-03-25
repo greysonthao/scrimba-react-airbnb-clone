@@ -96,12 +96,10 @@ section {
   margin-bottom: 0;
 }
 
-.card-pricing-container {
-  display: flex;
-}
-
 .card-pricing-per-person {
   margin-left: 4px;
+  margin-top: 8px;
+  margin-bottom: 0;
 }
 
 .card-pricing-text {
