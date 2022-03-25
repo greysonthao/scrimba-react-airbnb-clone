@@ -10,12 +10,14 @@ import data from "./components/data";
 function App() {
   let cardElements = data.map((cardData) => (
     <Card
+      key={cardData.id}
       img={cardData.coverImg}
       rating={cardData.stats.rating}
       reviews={cardData.stats.reviewCount}
       location={cardData.location}
       event_info={cardData.description}
       pricing={cardData.price}
+      openSpots={cardData.openSpots}
     />
   ));
 
